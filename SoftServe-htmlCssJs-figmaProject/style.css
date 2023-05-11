@@ -1,0 +1,152 @@
+* {
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+ul {
+    list-style: none;
+}
+
+.header {
+    background-image: url(img/header-background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.header__menu {
+   flex: 1;
+}
+.header__nav {
+    display: flex;
+    
+}
+
+.hero {
+    padding-bottom: 50px;
+    text-align: center;
+    margin: 50px;
+}
+.hero__title {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.hero__text {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.nav {
+    padding-top: 13%;
+}
+
+.nav__items {
+
+}
+
+.nav__link {
+    color: white;
+
+}
+
+.header__social {
+    display: block;
+    
+}
+
+.header__social-link {
+    position: relative;
+}
+
+li {
+    
+    color: white
+}
+
+
+
+.nav__items {
+    text-decoration: none;
+}
+
+.nav a {
+    text-decoration: none;
+}
+.nav a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 500px) {
+    .header__menu {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.features__title {
+    text-align: center;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.features__opentype {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin: 50px;
+}
+
+.features__design {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin: 50px;
+}
+
+.features__fastest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin: 50px;
+}
+
+.features__opentype img {
+    width: 50px;
+}
+
+.features__design img {
+    width: 50px;
+}
+
+.features__fastest img {
+    width: 50px;
+}
+
+.organize {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin: 50px;
+}
+
+.organize__title {
+    font-size: 50px;
+}
+

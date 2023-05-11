@@ -8,53 +8,63 @@
     <title>Figma</title>
     <link rel="shortcut icon" href="img/figma-icon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="img/figma-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Product</a></li>
-                <li><a href="#">Prising</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contacts</a></li>
-            </ul>
-        </nav>
-        <h1>The best products start with Figma</h1>
-        <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-        <button>Try For Free</button>
-    </header>
+    <header class="header">
+        <div class="header__nav">
+            <div class="header__menu">
+                <nav class="nav">
+                    <ul class="nav__items">
+                        <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Product</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Pricing</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__social">
+                <a class="header__social-link" href="#"><img src="img/twitter-header-icon.svg" alt="twitter icon"></a>
+                <a class="header__social-link" href="#"><img src="img/facebook-header-icon.svg" alt="facebook icon"></a>
+                <a class="header__social-link" href="#"><img src="img/linkedin-header-icon.svg" alt="linkedin icon"></a>
+            </div>
+        </div>
+        <section class="hero">
+            <h1 class="hero__title">The best products start with Figma</h1>
+            <p class="hero__text">Most calendars are designed for teams. Slate is designed for freelancers</p>
+            <button class="hero__button">Try For Free</button>
+        </section>
+        
+    </header>    
     <main>
-        <section>
-            <div>
+        <section class="features">
+            <div class="features__title">
                 <h2>Features</h2>
                 <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
             </div>
-            <div>
+            <div class="features__opentype">
                 <img src="img/circle-rect.png" alt="circle and rectangle">
                 <h3>OpenType features<br>Variable fonts</h3>
                 <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
             </div>
-            <div>
+            <div class="features__design">
                 <img src="img/pencil.png" alt="pencil">
                 <h3>Design with real data</h3>
                 <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
             </div>
-            <div>
+            <div class="features__fastest">
                 <img src="img/brush.png" alt="brush">
                 <h3>Fastest way to take action</h3>
                 <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
             </div>
         </section>
-        <img src="img/video.png" alt="here must be a video">
-        <section>
-            <div>
-                <h2>Fastest way to organize</h2>
-                <p>Most calendars are designed for teams. <br> Slate is designed for freelancers</p>
-                <button>Try For Free</button>
-                <img src="img/macbook-pro.png" alt="MacBook Pro">
-            </div>
+        <section class="organize">
+            <h2 class="organize__title">Fastest way to organize</h2>
+            <p class="organize__text">Most calendars are designed for teams. <br> Slate is designed for freelancers</p>
+            <button class="organize__button">Try For Free</button>
+            <img src="img/macbook-pro.png" alt="MacBook Pro">
         </section>
         <section>
             <div>
